@@ -114,7 +114,7 @@
   max-height: 700px; */
   height: clamp(23.4375rem, 100vw, 43.75rem);
   border-top: solid 2px var(--text-color, #000000);
-  border-bottom: solid 2px var(--text-color,#000000);
+  border-bottom: solid 2px var(--text-color, #000000);
   object-fit: cover;
   inline-size: 100%;
   aspect-ratio: 1/1;
@@ -147,7 +147,7 @@
   /* эффект кнопки при focus */
   outline: none; /* Отмена стандартной обводки */
   overflow: hidden;
-  background: var(--main-bg-color,  #fff);
+  background: var(--main-bg-color, #fff);
   transition: box-shadow 0.3s ease; /* Плавность перехода для тени */
 }
 
@@ -179,7 +179,6 @@
 .button::before {
   content: "";
   position: absolute;
-  inset: 0 0;
   inset: 0;
   display: block;
   background-color: var(--text-color, #000000);
@@ -193,7 +192,7 @@
 }
 /* mix-blend-mode: difference */
 span {
-  color: var(--main-bg-color,  #fff);
+  color: var(--main-bg-color, #fff);
   mix-blend-mode: difference;
 }
 
@@ -218,7 +217,7 @@ span {
 }
 
 .icon-floppy-button {
- min-width: 21px;
+  min-width: 21px;
   min-height: 21px;
 }
 
@@ -238,7 +237,6 @@ span {
 }
 
 .dialog__window {
-
   position: fixed;
   inset: 0;
   inline-size: clamp(21.3125rem, 20.45rem + 3.69vw, 22.0625rem);
@@ -252,7 +250,7 @@ span {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  border: 2px solid var(--text-color,#000000);
+  border: 2px solid var(--text-color, #000000);
   padding-inline: 40px;
   padding-block: 30px;
   font-family: var(--accent-font, monospace);
